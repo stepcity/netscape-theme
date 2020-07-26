@@ -16,6 +16,11 @@ menupopup,
 }
 
 #toolbar-menubar {
+    background: #f5f6f7 !important;
+    color: #000 !important;
+}
+
+#toolbar-menubar:not([tabsintitlebar]) {
     background: #fff !important;
     color: #000 !important;
 }
