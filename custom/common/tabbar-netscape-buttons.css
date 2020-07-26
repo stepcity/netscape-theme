@@ -1,0 +1,42 @@
+#sidebar-close .toolbarbutton-icon,
+.close-icon {
+    list-style-image: url("./tabbar/close-netscape.png") !important;
+    -moz-image-region: rect(0px, 16px, 16px,  0px) !important;
+}
+
+#sidebar-close:hover .toolbarbutton-icon,
+.close-icon:hover {
+    -moz-image-region: rect(0px, 32px, 16px, 16px) !important;
+}
+
+#sidebar-close:hover:active .toolbarbutton-icon,
+.close-icon:hover:active {
+    -moz-image-region: rect(0px, 64px, 16px, 48px) !important;
+}
+
+#sidebar-close .toolbarbutton-icon,
+.close-icon > .button-icon,
+.close-icon > .button-box > .button-icon,
+.close-icon > .toolbarbutton-icon {
+    width: 16px !important;
+    height: 16px !important;
+}
+
+#sidebar-close {
+    background: unset !important;
+}
+
+#tabs-newtab-button, #new-tab-button {
+    list-style-image: url("./tabbar/new-netscape.png") !important;
+    -moz-image-region: rect(0px, 16px, 16px,  0px) !important;
+}
+
+#tabs-newtab-button:hover, #new-tab-button:hover {
+    list-style-image: url("./tabbar/new-netscape.png") !important;
+    -moz-image-region: rect(0px, 32px, 16px, 16px) !important;
+}
+
+#tabs-newtab-button:active, #new-tab-button:active {
+    list-style-image: url("./tabbar/new-netscape.png") !important;
+    -moz-image-region: rect(0px, 48px, 16px, 32px) !important;
+}

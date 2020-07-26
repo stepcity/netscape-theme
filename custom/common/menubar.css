@@ -1,0 +1,13 @@
+menu {
+    border: 1px solid transparent;
+}
+
+menu:hover {
+    border-color: #ffffff #808080 #808080 #ffffff;
+    background: inherit !important;
+}
+
+menu[open] {
+    border-color: #808080 #ffffff #ffffff #808080;
+    background: inherit !important;
+}

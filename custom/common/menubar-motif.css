@@ -1,0 +1,17 @@
+menu {
+    border: 2px solid;
+    border-color: #ffffff #808080 #808080 #ffffff;
+    background: inherit !important;
+    font-style: oblique !important;
+    font-weight: bold !important;
+}
+
+menu:hover {
+    border-color: #ffffff #808080 #808080 #ffffff;
+    background: inherit !important;
+}
+
+menu[open] {
+    border-color: #808080 #ffffff #ffffff #808080;
+    background: inherit !important;
+}

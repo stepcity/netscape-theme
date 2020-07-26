@@ -1,0 +1,24 @@
+toolbar, #sidebar-header, #sidebar-search-container {
+    border-top-color: ThreeDHighlight !important;
+    border-top-style: solid !important;
+    border-top-width: 1px !important;
+    border-bottom-color: ThreeDShadow !important;
+    border-bottom-style: solid !important;
+    border-bottom-width: 1px !important;
+    color: black;
+}
+
+#toolbar-menubar {
+    padding: 1px 0px !important;
+}
+
+#TabsToolbar {
+}
+
+#nav-bar {
+}
+
+#PersonalToolbar {
+    padding: 1px 0px !important;
+    border-bottom-color: #808080 !important;
+}

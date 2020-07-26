@@ -1,0 +1,62 @@
+#PersonalToolbar #home-button,
+#PersonalToolbar toolbarbutton:not(#PlacesChevron),
+#PersonalToolbar #PlacesToolbar toolbarbutton,
+#PlacesToolbar toolbarbutton:not(#PlacesChevron) {
+	margin-left: 0px !important;
+	margin-right: 0px !important;
+    border: 2px solid transparent;
+	border-radius: 0px !important;
+	padding: 3px 5px !important;
+	background: unset !important;
+	cursor: pointer;
+}
+
+#PersonalToolbar #home-button:hover,
+#PersonalToolbar toolbarbutton:not(#PlacesChevron)[type=menu]:hover,
+#PersonalToolbar #PlacesToolbar toolbarbutton[type=menu]:hover,
+#PlacesToolbar toolbarbutton:not(#PlacesChevron)[type=menu]:hover {
+    border-image: url("navbar/button-2k.png") !important;
+    border-image-width: 2px 2px 2px 2px !important;
+    border-image-slice: 2 2 2 2 !important;
+}
+
+#PersonalToolbar #home-button:active,
+#PersonalToolbar toolbarbutton:not(#PlacesChevron)[type=menu]:active,
+#PersonalToolbar #PlacesToolbar toolbarbutton[type=menu]:active,
+#PlacesToolbar toolbarbutton:not(#PlacesChevron)[type=menu]:active {
+    border-image: url("navbar/button-2k-active.png") !important;
+    border-image-width: 2px 2px 2px 2px !important;
+    border-image-slice: 2 2 2 2 !important;
+}
+
+#PersonalToolbar toolbarbutton:not(#PlacesChevron)[type=menu][open],
+#PersonalToolbar #PlacesToolbar toolbarbutton[type=menu][open],
+#PlacesToolbar toolbarbutton:not(#PlacesChevron)[type=menu][open] {
+    border-image: url("navbar/button-2k-active.png") !important;
+    border-image-width: 2px 2px 2px 2px !important;
+    border-image-slice: 2 2 2 2 !important;
+}
+
+#PersonalToolbar .toolbarbutton-badge-stack,
+#PersonalToolbar toolbarbutton:not(#PlacesChevron) .toolbarbutton-icon {
+	box-shadow: unset !important;
+	background: unset !important;
+}
+
+#PersonalToolbar toolbarbutton:not(#PlacesChevron) .toolbarbutton-icon {
+	width: 16px !important;
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+#PersonalToolbar .scrollbutton-up .toolbarbutton-icon,
+#PersonalToolbar .scrollbutton-down .toolbarbutton-icon {
+	width: unset !important;
+	padding-left: unset !important;
+	padding-right: unset !important;
+}
+
+#PersonalToolbar toolbarbutton:not(#PlacesChevron)[scheme="https"],
+#PersonalToolbar #PlacesToolbar toolbarbutton[scheme="https"],
+#PlacesToolbar toolbarbutton:not(#PlacesChevron)[scheme="https"] {
+    text-decoration: underline;
+}

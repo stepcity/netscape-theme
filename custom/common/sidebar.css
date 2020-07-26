@@ -1,0 +1,13 @@
+#sidebar-box {
+    margin-top: -1px !important;
+    border-right: 2px solid !important;
+}
+
+#sidebar-header {
+    background-color: #808080 !important;
+    color: #fff;
+}
+
+#sidebar-search-container {
+    border-bottom-color: #808080 !important;
+}

@@ -1,0 +1,26 @@
+#navigator-toolbox:not(:-moz-lwtheme) > toolbar,
+:root #titlebar:not(:-moz-lwtheme),
+:root #TabsToolbar:not(:-moz-lwtheme),
+.tab-background[selected="true"],
+#nav-bar:not(:-moz-lwtheme),
+#PersonalToolbar:not(:-moz-lwtheme),
+#sidebar-header,
+#sidebar-search-container,
+#statuspanel-label:not(:-moz-lwtheme),
+.browserContainer > findbar:not(:-moz-lwtheme),
+menupopup,
+#context-navigation,
+#contentAreaContextMenu,
+#placesToolbox {
+  background-color: #c0c0c0 !important;
+}
+
+:root:not([tabsintitlebar]) #toolbar-menubar:not(:-moz-lwtheme) {
+    background: #fff !important;
+    color: #000 !important;
+}
+
+#BMB_bookmarksPopup {
+  background-color: transparent !important;
+  border: 0px;
+}

@@ -1,0 +1,34 @@
+/* ========================================================================== **
+** CUSTOMIZABLE SETTINGS - TOGGLE OPTIONS HERE                                **
+** ========================================================================== */
+/* COLOR THEMES ============================================================= */
+/* Choose between ONE of the following: */
+   @import "./custom/color-mac-os.css"; /* MacOS Color Theme */
+/* @import "./custom/color-windows.css"; /* Windows Color Theme */
+/* Classic styling ========================================================== */
+   @import "./custom/toolbar.css"; /* Toolbar settings */
+/* Choose between ONE of the following: */
+   @import "./custom/common/-classic-2k.css"; /* Windows 2000 button style */
+/* @import "./custom/common/-classic-9x.css"; /* Windows 9x button style */
+/* @import "./custom/common/-classic-mac.css"; /* Macintosh button style */
+/* @import "./custom/common/-classic-motif.css"; /* Unix button style */
+/* Choose between ONE of the following: */
+   @import "./custom/common/menubar.css"; /* Classic menubar style */
+/* @import "./custom/common/menubar-motif.css"; /* SGI Improved motif style */
+/* TAB BAR ================================================================== */
+   @import "./custom/common/tabbar.css"; /* General tab bar settings */
+/* Choose between ONE of the following: */
+/* @import "./custom/common/tabbar-netscape-buttons.css"; /* Netscape style tab buttons */
+/* @import "./custom/common/tabbar-netscape-buttons-alt.css"; /* Alternative Netscape style tab buttons */
+   @import "./custom/common/tabbar-mozilla-buttons.css"; /* Seamonkey style tab buttons */
+/* NAV / URL BAR ============================================================ */
+   @import "./custom/common/urlbar.css"; /* General url bar settings */
+/* PERSONAL (BOOKMARKS) TOOLBAR ============================================= */
+/* Choose between ONE of the following: */
+   @import "./custom/common/personalbar-2k.css"; /* Windows 2000 style */
+/* @import "./custom/common/personalbar-9x.css"; /* Windows 9x style */
+/* @import "./custom/common/personalbar-mac.css"; /* Macintosh style */
+/* @import "./custom/common/personalbar-motif.css"; /* Unix style */
+/* SIDEBAR ================================================================== */
+   @import "./custom/common/sidebar.css"; /* General sidebar settings */
+/* ========================================================================== */

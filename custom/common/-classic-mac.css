@@ -1,0 +1,207 @@
+/* main menu button adjustment */
+#PanelUI-button {
+    margin-inline-start: 0px !important;
+    border-inline-start: 0px solid !important;
+    border-image-slice: 0 !important;
+    padding-left: 2px !important;
+    padding-right: 2px !important;
+}
+
+#PanelUI-menu-button {
+    -moz-appearance: unset !important;
+    background: unset !important;
+    box-shadow: unset !important;
+    border-image: unset !important;
+    border: unset !important;
+    padding: unset !important;
+    margin: unset !important;
+    min-width: unset !important;
+    width: unset !important;
+    max-width: unset !important;
+    min-height: unset !important;
+    height: unset !important;
+    max-height: unset !important;
+}
+
+/* adjust zoom reset and copy buttons position */
+#nav-bar :-moz-any(#copy-button,#zoom-reset-button) {
+    -moz-margin-start: -1px !important;
+    -moz-margin-end: -1px !important;
+}
+#nav-bar :-moz-any(#edit-controls, #zoom-controls) separator {
+    visibility: collapse !important;
+}
+
+/* force separate reload and stop buttons */
+toolbar:not(#customization-container) #reload-button,
+toolbar:not(#customization-container) #stop-button {
+    display: -moz-box !important;
+}
+
+/* classic button style */
+#main-window:not([customizing]) #nav-bar .toolbarbutton-1[disabled=true]:-moz-any([open],[checked],:hover:active,:active) > .toolbarbutton-icon,
+#main-window:not([customizing]) #nav-bar .toolbarbutton-1[disabled=true]:-moz-any([open],[checked],:hover:active,:active) > .toolbarbutton-text,
+#main-window:not([customizing]) #nav-bar .toolbarbutton-1[disabled=true]:-moz-any([open],[checked],:hover:active,:active) > .toolbarbutton-badge-stack,
+#nav-bar toolbarbutton[type="menu-button"] > .toolbarbutton-icon,
+#nav-bar .toolbarbutton-1 > .toolbarbutton-menubutton-button[open] + .toolbarbutton-menubutton-dropmarker > .dropmarker-icon,
+#nav-bar .toolbarbutton-1[open] > .toolbarbutton-menubutton-button > .toolbarbutton-icon,
+#nav-bar .toolbarbutton-1[open] > .toolbarbutton-menubutton-dropmarker > .dropmarker-icon,
+#nav-bar .toolbarbutton-1:not([checked]):not([open]):not(:active) > .toolbarbutton-icon,
+#nav-bar .toolbarbutton-1:not([checked]):not([open]):not(:active) > .toolbarbutton-text,
+#nav-bar .toolbarbutton-1:not([checked]):not([open]):not(:active) > .toolbarbutton-badge-stack,
+#nav-bar .toolbarbutton-1:not([buttonover]):not([open]):not(:active) > .toolbarbutton-menubutton-dropmarker:not([disabled]) > .dropmarker-icon {
+    background-image: unset !important;
+    background-color: unset !important;
+    background: unset !important;
+    -moz-appearance: none !important;
+    border: 2px !important;
+    border-image: url("navbar/button-mac.png") !important;
+    border-image-width: 2px 2px 2px 2px !important;
+    border-image-slice: 2 2 2 2 !important;
+    border-radius: 0px !important;
+}
+
+#nav-bar toolbarbutton[type="menu"][open]:not([disabled]) > .toolbarbutton-icon,
+#nav-bar toolbarbutton[type="menu-button"]:not([open]):hover:not([disabled]):active > .toolbarbutton-icon,
+#nav-bar .toolbarbutton-1 > .toolbarbutton-menubutton-button:not([disabled=true]):-moz-any(:hover:active,:active, [open]) > .toolbarbutton-icon,
+#nav-bar .toolbarbutton-1[open] > .toolbarbutton-menubutton-dropmarker:not([disabled=true]) > .dropmarker-icon,
+#nav-bar .toolbarbutton-1:not([disabled=true]):-moz-any([open],[checked],:hover:active,:active) > .toolbarbutton-icon,
+#nav-bar .toolbarbutton-1:not([disabled=true]):-moz-any([open],[checked],:hover:active,:active) > .toolbarbutton-text,
+#nav-bar .toolbarbutton-1:not([disabled=true]):-moz-any([open],[checked],:hover:active,:active) > .toolbarbutton-badge-stack {
+    background-image: unset !important;
+    background-color: unset !important;
+    background: unset !important;
+    -moz-appearance: none !important;
+    border: 2px !important;
+    border-image: url("navbar/button-mac-active.png") !important;
+    border-image-width: 2px 2px 2px 2px !important;
+    border-image-slice: 2 2 2 2 !important;
+    border-radius: 0px !important;
+}
+
+#nav-bar toolbarbutton[disabled=true] > .toolbarbutton-icon {
+    opacity: .6 !important;
+}
+
+#nav-bar toolbarbutton[disabled=true]{
+    opacity: 1.0 !important;
+}
+
+/* same thing, but for tabs */
+#main-window:not([customizing]) #TabsToolbar .toolbarbutton-1[disabled=true]:-moz-any([open],[checked],:hover:active,:active) > .toolbarbutton-icon,
+#main-window:not([customizing]) #TabsToolbar .toolbarbutton-1[disabled=true]:-moz-any([open],[checked],:hover:active,:active) > .toolbarbutton-text,
+#main-window:not([customizing]) #TabsToolbar .toolbarbutton-1[disabled=true]:-moz-any([open],[checked],:hover:active,:active) > .toolbarbutton-badge-stack,
+#TabsToolbar toolbarbutton[type="menu-button"] > .toolbarbutton-icon,
+#TabsToolbar .toolbarbutton-1 > .toolbarbutton-menubutton-button[open] + .toolbarbutton-menubutton-dropmarker > .dropmarker-icon,
+#TabsToolbar .toolbarbutton-1[open] > .toolbarbutton-menubutton-button > .toolbarbutton-icon,
+#TabsToolbar .toolbarbutton-1[open] > .toolbarbutton-menubutton-dropmarker > .dropmarker-icon,
+#TabsToolbar .toolbarbutton-1:not([checked]):not([open]):not(:active) > .toolbarbutton-icon,
+#TabsToolbar .toolbarbutton-1:not([checked]):not([open]):not(:active) > .toolbarbutton-text,
+#TabsToolbar .toolbarbutton-1:not([checked]):not([open]):not(:active) > .toolbarbutton-badge-stack,
+#TabsToolbar .toolbarbutton-1:not([buttonover]):not([open]):not(:active) > .toolbarbutton-menubutton-dropmarker:not([disabled]) > .dropmarker-icon {
+    background-image: unset !important;
+    background-color: unset !important;
+    background: unset !important;
+    -moz-appearance: none !important;
+    border: 2px !important;
+    border-image: url("navbar/button-mac.png") !important;
+    border-image-width: 2px 2px 2px 2px !important;
+    border-image-slice: 2 2 2 2 !important;
+    border-radius: 0px !important;
+}
+
+#TabsToolbar toolbarbutton[type="menu"][open]:not([disabled]) > .toolbarbutton-icon,
+#TabsToolbar toolbarbutton[type="menu-button"]:not([open]):hover:not([disabled]):active > .toolbarbutton-icon,
+#TabsToolbar .toolbarbutton-1 > .toolbarbutton-menubutton-button:not([disabled=true]):-moz-any(:hover:active,:active, [open]) > .toolbarbutton-icon,
+#TabsToolbar .toolbarbutton-1[open] > .toolbarbutton-menubutton-dropmarker:not([disabled=true]) > .dropmarker-icon,
+#TabsToolbar .toolbarbutton-1:not([disabled=true]):-moz-any([open],[checked],:hover:active,:active) > .toolbarbutton-icon,
+#TabsToolbar .toolbarbutton-1:not([disabled=true]):-moz-any([open],[checked],:hover:active,:active) > .toolbarbutton-text,
+#TabsToolbar .toolbarbutton-1:not([disabled=true]):-moz-any([open],[checked],:hover:active,:active) > .toolbarbutton-badge-stack {
+    background-image: unset !important;
+    background-color: unset !important;
+    background: unset !important;
+    -moz-appearance: none !important;
+    border: 2px !important;
+    border-image: url("navbar/button-mac-active.png") !important;
+    border-image-width: 2px 2px 2px 2px !important;
+    border-image-slice: 2 2 2 2 !important;
+    border-radius: 0px !important;
+}
+
+#TabsToolbar toolbarbutton[disabled=true] > .toolbarbutton-icon {
+    opacity: .6 !important;
+}
+
+#TabsToolbar toolbarbutton[disabled=true]{
+    opacity: 1.0 !important;
+}
+
+/* Classic context menus */
+#context-sep-navigation,
+:-moz-any(#context-back,#context-forward,#context-reload,#context-stop,#context-bookmarkpage) .menu-iconic-highlightable-text {
+  display: none !important;
+}
+
+#context-navigation{
+  -moz-box-orient: vertical !important;
+  -moz-appearance:none !important;
+  background:unset !important;
+}
+
+:-moz-any(#context-back,#context-forward,#context-reload,#context-stop,#context-bookmarkpage) image {
+  width: 16px !important;
+  height: 16px !important;
+  margin-top: unset !important;
+  margin-bottom: unset !important;
+  padding-top: unset !important;
+  padding-bottom: unset !important;
+  -moz-margin-start: 4px !important;
+  -moz-margin-end: 12px !important;
+}
+
+@media (min-resolution: 120dpi) {
+	:-moz-any(#context-back,#context-forward,#context-reload,#context-stop,#context-bookmarkpage) image  {
+	  -moz-margin-end: 8px !important;
+	}
+}
+
+:-moz-any(#context-back,#context-forward,#context-reload,#context-stop,#context-bookmarkpage) {
+  -moz-appearance: menuitem !important;
+  min-height: unset !important;
+}
+
+:-moz-any(#context-back,#context-forward,#context-reload,#context-stop,#context-bookmarkpage):after {
+  content: attr(aria-label) !important;
+  display: block !important;
+  visibility: visible !important;
+}
+
+#context-navigation > .menuitem-iconic{
+  -moz-box-pack: start !important;
+}
+
+#context-bookmarkpage[aria-label*="Lesezeichen"] {
+  -moz-padding-end: 10px !important;
+}
+
+@media (-moz-windows-classic) {
+
+	:-moz-any(#context-back,#context-forward,#context-reload,#context-stop,#context-bookmarkpage) image {
+	  -moz-margin-start: 0px !important;
+	  -moz-margin-end: 2px !important;
+	}
+
+}
+
+@media not all and (-moz-os-version: windows-win7) {
+@media not all and (-moz-os-version: windows-win8) {
+@media not all and (-moz-os-version: windows-win10) {
+	:-moz-any(#context-back,#context-forward,#context-reload,#context-stop,#context-bookmarkpage) image {
+	  -moz-margin-start: 2px !important;
+	  -moz-margin-end: 3px !important;
+	} 
+}}}
+
+:-moz-any(#context-back,#context-forward,#context-reload,#context-stop,#context-bookmarkpage) image {
+  opacity: 0 !important;
+}
