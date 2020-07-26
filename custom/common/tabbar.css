@@ -61,7 +61,7 @@
     visibility: visible !important;
 }
 
-/* tabs on bottom */
+/* Tabs on bottom */
 #navigator-toolbox toolbar:not(#nav-bar):not(#toolbar-menubar) {
     -moz-box-ordinal-group:10;
 }

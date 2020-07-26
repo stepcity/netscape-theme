@@ -3,8 +3,8 @@
 ** ========================================================================== */
 /* COLOR THEMES ============================================================= */
 /* Choose between ONE of the following: */
-   @import "./custom/color-mac-os.css"; /* MacOS Color Theme */
-/* @import "./custom/color-windows.css"; /* Windows Color Theme */
+/* @import "./custom/color-mac-os.css"; /* MacOS Color Theme */
+   @import "./custom/color-windows.css"; /* Windows Color Theme */
 /* Classic styling ========================================================== */
    @import "./custom/toolbar.css"; /* Toolbar settings */
 /* Choose between ONE of the following: */

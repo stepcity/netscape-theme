@@ -15,6 +15,11 @@ menupopup,
   background-color: #ddd !important;
 }
 
+#toolbar-menubar {
+    background: #fff !important;
+    color: #000 !important;
+}
+
 #toolbar-menubar:not(:-moz-lwtheme) {
     background: #ddd !important;
     color: #000 !important;

@@ -1,13 +1,13 @@
 menu {
-    border: 1px solid transparent;
+    border: 1px solid transparent !important;
 }
 
 menu:hover {
-    border-color: #ffffff #808080 #808080 #ffffff;
+    border-color: #ffffff #808080 #808080 #ffffff !important;
     background: inherit !important;
 }
 
 menu[open] {
-    border-color: #808080 #ffffff #ffffff #808080;
+    border-color: #808080 #ffffff #ffffff #808080 !important;
     background: inherit !important;
 }
