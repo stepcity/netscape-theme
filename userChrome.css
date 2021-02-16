@@ -6,13 +6,13 @@
 /* @import "./custom/color-mac-os.css"; /* MacOS Color Theme */
    @import "./custom/color-windows.css"; /* Windows Color Theme */
 /* Classic styling ========================================================== */
-/* @import "./custom/toolbar.css"; /* Toolbar settings */
+   @import "./custom/toolbar.css"; /* Toolbar settings */
 /* Choose between ONE of the following: */
-/* @import "./custom/common/-classic-2k.css"; /* Windows 2000 button style */
+   @import "./custom/common/-classic-2k.css"; /* Windows 2000 button style */
 /* @import "./custom/common/-classic-9x.css"; /* Windows 9x button style */
 /* @import "./custom/common/-classic-mac.css"; /* Macintosh button style */
 /* @import "./custom/common/-classic-motif.css"; /* Unix button style */
-   @import "./custom/common/-classic-win.css"; /* Windows 10 button style */
+/* @import "./custom/common/-classic-win.css"; /* Windows 10 button style */
 /* Choose between ONE of the following: */
    @import "./custom/common/menubar.css"; /* Classic menubar style */
 /* @import "./custom/common/menubar-motif.css"; /* SGI Improved motif style */
@@ -26,11 +26,11 @@
    @import "./custom/common/urlbar.css"; /* General url bar settings */
 /* PERSONAL (BOOKMARKS) TOOLBAR ============================================= */
 /* Choose between ONE of the following: */
-/* @import "./custom/common/personalbar-2k.css"; /* Windows 2000 style */
+   @import "./custom/common/personalbar-2k.css"; /* Windows 2000 style */
 /* @import "./custom/common/personalbar-9x.css"; /* Windows 9x style */
 /* @import "./custom/common/personalbar-mac.css"; /* Macintosh style */
 /* @import "./custom/common/personalbar-motif.css"; /* Unix style */
-   @import "./custom/common/personalbar-win.css"; /* Windows 10 Style */
+/* @import "./custom/common/personalbar-win.css"; /* Windows 10 Style */
 /* SIDEBAR ================================================================== */
    @import "./custom/common/sidebar.css"; /* General sidebar settings */
 /* ========================================================================== */
